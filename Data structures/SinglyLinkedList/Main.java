@@ -6,8 +6,7 @@ class Main {
         list.insert(1, 2);
         list.insert(2, 7);
         list.display();
-        list.search(5);
-        list.deleteList();
+        list.deleteByValue(2);
         list.display();
     }
 }
