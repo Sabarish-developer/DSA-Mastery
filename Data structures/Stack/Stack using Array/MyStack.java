@@ -1,10 +1,10 @@
-public class Stack {
+public class MyStack {
 
     private int arr[];
     private int top;
     private int size;
 
-    public Stack(int size) {
+    public MyStack(int size) {
         this.size = size;
         this.arr = new int[size];
         this.top = -1;
